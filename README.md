@@ -1,4 +1,4 @@
-<img width="566" alt="image" src="https://github.com/user-attachments/assets/a59fdeb4-8de4-4b01-8f7c-6bc6dc74c97e" />
+<img width="565" alt="image" src="https://github.com/user-attachments/assets/1bed6a22-8f47-4a25-8a15-9baef247d9f9" />
 
 This PCB integrates several sensors commonly found on a weather balloon and ties the I2C outputs of these sensors to an Adafruit Feather M0 Adalogger. Several additional ports are available, this PCB supports up to 6 I2C connections routed through the TCA9548A multiplexor, allowing multiple of the same sensor to be used. A 3-pin interface supplying 3V, GND and digital data input lines is included to interface with the MightyOhm geiger counter kit. The size of the PCB is chosen so it can easily be attached to the geiger counter. As pictured below, the white PCB on top is attached to the geiger counter using standoffs.
 
