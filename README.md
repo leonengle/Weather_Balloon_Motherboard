@@ -8,7 +8,7 @@ An OLED is included to report errors and display real-time data, shown in this p
 
 ![image](https://github.com/user-attachments/assets/453385d7-618b-4a67-822e-3d158a4a22c3)
 
-A DS3231 RTC(real-time clock) is included to provide time stamps for data collected. A PT(pressure-temperature) sensor is mounted on the PCB for gauging altitude. When we launched the PCBs during the April 8th, 2024 eclipse; we added 2 more PT sensors and a UV sensor via the I2C terminal blocks connected to the MUX. 
+A DS3231 RTC(real-time clock) is included to provide time stamps for data collected. A MPL3115A2 PT(pressure-temperature) sensor is mounted on the PCB for gauging altitude. When we launched the PCBs during the April 8th, 2024 eclipse; we added 2 more PT sensors and a UV sensor via the I2C terminal blocks connected to the MUX. 
 
 Tools:
 - Soldering iron, flux, solder
