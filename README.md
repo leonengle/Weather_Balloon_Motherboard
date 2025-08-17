@@ -1,4 +1,4 @@
-<img width="565" alt="image" src="https://github.com/user-attachments/assets/1bed6a22-8f47-4a25-8a15-9baef247d9f9" />
+<img width="565" alt="image" src="https://github.com/user-attachments/assets/1bed6a22-8f47-4a25-8a15-9baef247d9f9" img width="565" alt="image2" src="https://github.com/user-attachments/assets/52ac9067-f325-4bbf-b8aa-69f3547c585c"/>
 
 This PCB integrates several sensors commonly found on a weather balloon and ties the I2C outputs of these sensors to an Adafruit Feather M0 Adalogger. Several additional ports are available, this PCB supports up to 6 I2C connections routed through the TCA9548A multiplexor, allowing multiple of the same sensor to be used. A 3-pin interface supplying 3V, GND and digital data input lines is included to interface with the MightyOhm geiger counter kit. The 3V line is supplied by using a buck converter to lower 5V to 3V. The size of the PCB is chosen so it can easily be attached to the geiger counter. As pictured below, the white PCB on top is attached to the geiger counter using standoffs.
 
@@ -7,8 +7,6 @@ This PCB integrates several sensors commonly found on a weather balloon and ties
 An OLED is included to report errors and display real-time data, shown in this photo:
 
 ![image](https://github.com/user-attachments/assets/453385d7-618b-4a67-822e-3d158a4a22c3)
-
-<img width="1520" height="828" alt="Screenshot 2024-11-06 162508" src="https://github.com/user-attachments/assets/52ac9067-f325-4bbf-b8aa-69f3547c585c" />
 
 A DS3231 RTC(real-time clock) is included to provide time stamps for data collected. A MPL3115A2 PT(pressure-temperature) sensor is mounted on the PCB for gauging altitude. When we launched the PCBs during the April 8th, 2024 eclipse; we added 2 more PT sensors and a UV sensor via the I2C terminal blocks connected to the MUX. 
 
